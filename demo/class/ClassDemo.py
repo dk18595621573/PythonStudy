@@ -1,5 +1,7 @@
 from Restaurant import Restaurant
 import User as u
+import Die as Die
+from random import choice
 
 my_restaurant = Restaurant("夏县小吃", "小吃")
 print(my_restaurant.restaurant_name)
@@ -51,3 +53,19 @@ xiao_ming.increment_login_attempts()
 xiao_ming.describe_user()
 xiao_ming.reset_login_attempts()
 xiao_ming.describe_user()
+
+print("==================================")
+
+six = Die.Die(6)
+six.roll_die()
+six.roll_die()
+six.roll_die()
+six.roll_die()
+six.roll_die()
+six.roll_die()
+
+number = ["938433", "0438593", "23874293", "oo834734"]
+rom_number = choice(number)
+print(rom_number)
+if "0438593" == rom_number:
+    print("恭喜你中奖了")
