@@ -1,6 +1,6 @@
-from Restaurant import Restaurant
-import User as u
-import Die as Die
+from restaurant import Restaurant
+import user as u
+import die as Die
 from random import choice
 
 my_restaurant = Restaurant("夏县小吃", "小吃")
