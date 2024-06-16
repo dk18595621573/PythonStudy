@@ -1,5 +1,5 @@
-from restaurant.Restaurant import Restaurant
-import user.User as u
+from Restaurant import Restaurant
+import User as u
 
 my_restaurant = Restaurant("夏县小吃", "小吃")
 print(my_restaurant.restaurant_name)
