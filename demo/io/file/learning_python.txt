@@ -1,0 +1,5 @@
+In Python you can If
+In Python you can For
+In Python you can Dict
+In Python you can While
+In Python you can Class
